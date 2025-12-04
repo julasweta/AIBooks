@@ -12,8 +12,6 @@ export default function App() {
     <div >
       <Routes>
        
-
-
         {/* Публічні роути - доступні всім */}
         {publicRoutes.map(({ path, element }) => (
           <Route
