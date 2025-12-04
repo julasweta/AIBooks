@@ -1,34 +1,23 @@
-// App.js
-import { Routes, Route} from "react-router-dom";
-import { notFoundRoute, publicRoutes } from "./routing/router";
-import MainLayout from "./layouts/MainLayout";
 
+import { Routes, Route, Link } from "react-router-dom";
+import AuthPage from "./pages/AuthPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import AppEn from "./componets/en/AppEn";
+import AppUa from "./componets/AppUa";
 
 
 export default function App() {
- 
-
   return (
-    <div >
+    <div>
+      <nav>
+        <Link to="/">Home</Link> | <Link to="/auth">Auth</Link>
+      </nav>
       <Routes>
-       
-        {/* Публічні роути - доступні всім */}
-        {publicRoutes.map(({ path, element }) => (
-          <Route
-            key={path}
-            path={path}
-            element={<MainLayout>{element}</MainLayout>}
-          />
-        ))}
-
-
-   
-
-        {/* 404 сторінка - має бути в кінці */}
-        <Route
-          path={notFoundRoute.path}
-          element={notFoundRoute.element}
-        />
+        <Route path="/" element={<AuthPage />} />
+        <Route path="/auth" element={<AuthPage />} />
+        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/en/lesson" element={<AppEn />} />
+        <Route path="/ua/lesson" element={<AppUa />} />
       </Routes>
     </div>
   );
