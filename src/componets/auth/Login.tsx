@@ -6,7 +6,10 @@ const Login: React.FC = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const apiKey = import.meta.env.VITE_API_KEY;
+  const apiKey2 = import.meta.env.VITE_API_KEY2;
   const navigate = useNavigate();
+
+  console.log(apiKey2);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -15,8 +18,18 @@ const Login: React.FC = () => {
       localStorage.setItem("auth", "true");
       setError("");
       navigate('/ua/lesson')
-    } else {
-      setError("Невірні дані");
+    }
+    if (password === apiKey2) {
+      localStorage.setItem("auth", "true");
+      setError("");
+      navigate('/en/lesson')
+    }
+    else {
+      if ((password === apiKey))
+      { setError("Невірні дані"); }
+      else {
+        setError("Error data");
+      }
     }
   };
 
