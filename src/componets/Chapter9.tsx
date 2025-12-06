@@ -159,16 +159,16 @@ const Chapter9 = () => {
             </li>
           </ol>
           <div className="portfolio">
-            <a href="/public/214525.png" target="_blank" rel="noopener noreferrer">
-              <img src="/public/214525.png" alt="Email" />
+            <a href="/214525.png" target="_blank" rel="noopener noreferrer">
+              <img src="/214525.png" alt="Email" />
             </a>
 
-            <a href="/public/213137.png" target="_blank" rel="noopener noreferrer">
-              <img src="/public/213137.png" alt="Схема Landbot" />
+            <a href="/213137.png" target="_blank" rel="noopener noreferrer">
+              <img src="/213137.png" alt="Схема Landbot" />
             </a>
 
-            <a href="/public/212952.png" target="_blank" rel="noopener noreferrer">
-              <img src="/public/212952.png" alt="Calendly" />
+            <a href="/212952.png" target="_blank" rel="noopener noreferrer">
+              <img src="/212952.png" alt="Calendly" />
             </a>
           </div>
         </div>

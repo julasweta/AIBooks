@@ -1,0 +1,94 @@
+
+
+.wrapper {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 20px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color: #0f172a;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 18px;
+
+  h1 {
+    font-size: 1.5rem;
+    margin: 0 0 6px 0;
+  }
+
+  .subtitle {
+    color: #334155;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: 12px;
+  padding: 14px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.03);
+  display: flex;
+  flex-direction: column;
+  min-height: 160px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  h2 {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+.copyBtn {
+  background: #0b5fff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.copyBtn:hover {
+  opacity: 0.95;
+}
+
+.prompt {
+  background: #0f172a14;
+  /* subtle */
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 10px;
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #0b1220;
+  flex: 1 1 auto;
+}
+
+.cardFooter {
+  margin-top: 10px;
+  color: #475569;
+  font-size: 0.8rem;
+}
+
+.footer {
+  margin-top: 18px;
+  color: #475569;
+  font-size: 0.85rem;
+}
