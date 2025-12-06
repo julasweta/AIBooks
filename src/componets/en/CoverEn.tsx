@@ -23,9 +23,11 @@ const Cover: React.FC = () => {
           <button className="btn btn--primary" aria-label="Start Reading">
             Contact the Author
           </button>
-          <button className="btn btn--ghost" aria-label="Download PDF">
-            Download PDF
-          </button>
+          <a href="/aiboockEn.pdf" download>
+            <button className="btn btn--ghost" aria-label="Завантажити PDF">
+              Download PDF
+            </button>
+          </a>
         </div>
       </div>
     </header>
