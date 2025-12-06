@@ -10,6 +10,12 @@
   --max-width: 1100px;
   --radius: 12px;
 }
+a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
 
 /* ============================================================================ 
    RESET & BASE
