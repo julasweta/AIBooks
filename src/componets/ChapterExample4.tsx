@@ -663,8 +663,8 @@ bot.polling(none_stop=True)`
             </li>
                   </ol>
                   <div className="portfolio">
-                      <a href="/public/telegr.jpg" target="_blank" rel="noopener noreferrer">
-                          <img src="/public/telegr.jpg" alt="Telegram" />
+                      <a href="/telegr.jpg" target="_blank" rel="noopener noreferrer">
+                          <img src="/telegr.jpg" alt="Telegram" />
                       </a>
                   </div>
               </div>

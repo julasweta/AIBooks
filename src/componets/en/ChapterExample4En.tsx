@@ -316,8 +316,8 @@ def start(message):
             </li>
           </ol>
           <div className="portfolio">
-            <a href="/public/telegr.jpg" target="_blank" rel="noopener noreferrer">
-              <img src="/public/telegr.jpg" alt="Telegram" />
+            <a href="/ptelegr.jpg" target="_blank" rel="noopener noreferrer">
+              <img src="/telegr.jpg" alt="Telegram" />
             </a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 // File: ProductLanding.tsx
 import React from "react";
 import styles from "./Home.module.scss";
-import heroImage from "/public/bg.jpg"; // приклад зображення
+import heroImage from "/bg.jpg"; // приклад зображення
 import featureImage1 from "/aiboock.pdf";
 import featureImage2 from "/aiboock.pdf";
 
