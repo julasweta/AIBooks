@@ -4,6 +4,7 @@ import styles from "./Home.module.scss";
 import heroImage from "/bg.jpg"; // приклад зображення
 import featureImage1 from "/aiboock.pdf";
 import featureImage2 from "/aiboock.pdf";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const Home: React.FC = () => {
         <p className={styles.subtitle}>
           Створи перший прибутковий AI-проєкт за 6 тижнів навіть без досвіду програмування. Практичні кейси, тестовані промпти та покрокові інструкції.
         </p>
-        <button className={styles.cta}>Почати заробляти з AI зараз</button>
+        <Link to="payment"><button className={styles.cta}>Почати заробляти з AI зараз</button></Link>
       </header>
 
       {/* Features section */}
@@ -77,7 +78,7 @@ const Home: React.FC = () => {
 
       {/* CTA footer */}
       <footer className={styles.footer}>
-        <button className={styles.cta}>Отримати гайд і почати заробляти</button>
+        <Link to = "/payment"><button className={styles.cta}>Отримати гайд і почати заробляти</button></Link>
       </footer>
     </div>
   );
