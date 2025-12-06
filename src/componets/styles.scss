@@ -1013,3 +1013,20 @@ button {
     }
   }
 }
+
+/* BONUS */
+.bonusButton {
+  background-color: #ff9900;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.8rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+  display: inline-block;
+}
+
+.bonusButton:hover {
+  background-color: #e68a00;
+  transform: translateY(-2px);
+}

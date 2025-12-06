@@ -15,6 +15,7 @@ import Chapter8 from "./Chapter8";
 import Chapter9 from "./Chapter9";
 import ChapterPrompts from "./ChapterPrompts";
 import Cover from "./Cover";
+import Bonus from "./Bonus";
 
 
 type ChapterItem = {
@@ -39,6 +40,7 @@ const chapters: ChapterItem[] = [
   { id: "prompts", title: "Промпти", component: <ChapterPrompts /> },
   { id: "c11", title: "11. Твоя цінність як виконавця", component: <Chapter11 /> },
   { id: "c12", title: "12. Що робити, щоб підняти рівень своїх послуг і заробітків як виконавець", component: <Chapter12 /> },
+  { id: "bonus", title: "Bonus", component: <Bonus lang={'ua'} /> },
 ];
 
 function AppUa() {
@@ -122,6 +124,9 @@ function AppUa() {
               {ch.component}
             </section>
           ))}
+
+         
+
         </main>
       </div>
     </>

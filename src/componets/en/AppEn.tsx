@@ -15,6 +15,7 @@ import Chapter11 from "./Chapter11En";
 import Chapter12 from "./Chapter12En";
 import ChapterPrompts from "./ChapterPromptEn";
 import Cover from "./CoverEn";
+import Bonus from "../Bonus";
 
 type ChapterItem = {
   id: string;
@@ -38,6 +39,7 @@ const chapters: ChapterItem[] = [
   { id: "prompts", title: "Prompts", component: <ChapterPrompts /> },
   { id: "c11", title: "11. Your value as a freelancer", component: <Chapter11 /> },
   { id: "c12", title: "12. How to improve your services and earnings as a freelancer", component: <Chapter12 /> },
+  { id: "bonus", title: "Bonus", component: <Bonus lang={'en'} /> },
 ];
 
 function AppEn() {
