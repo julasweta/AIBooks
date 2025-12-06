@@ -20,9 +20,15 @@ const Cover: React.FC = () => {
           <span className="ai-cover__meta-item">Стиль: Business Pro</span>
         </div>
         <div className="ai-cover__cta">
-          <button className="btn btn--primary" aria-label="Розпочати читання">
-            Написати автору
-          </button>
+          <a
+            className="btn btn--primary"
+            href="https://t.me/julasweta"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contact the Author"
+          >
+            Contact the Author
+          </a>
           <a href="/aiboock.pdf" download>
             <button className="btn btn--ghost" aria-label="Завантажити PDF">
               Завантажити PDF
