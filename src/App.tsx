@@ -8,6 +8,7 @@ import PromptsPage from './pages/PromptsPage';
 import Home from "./componets/main/Home";
 import PromptsPageEn from "./pages/PromptsPageEn";
 import PaymentPage from "./pages/PaymentPage";
+import PortfolioPage from "./pages/PortfolioPage";
 
 
 export default function App() {
@@ -23,7 +24,9 @@ export default function App() {
         <Route path="/prompts" element={<PromptsPage />} />
         <Route path="/promptsEn" element={<PromptsPageEn />} />
 
-        <Route path="/payment" element={<PaymentPage/>} />
+        <Route path="/payment" element={<PaymentPage />} />
+        
+        <Route path="/portfolio" element={<PortfolioPage />} />
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
