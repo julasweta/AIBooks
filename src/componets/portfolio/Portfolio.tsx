@@ -14,6 +14,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "FBE Store",
+    description: "FBE is a full-featured e-commerce application for managing products, carts, orders, and users.",
+    tech: ["React.js", "Nest.js", "PostgreSQL"],
+    link: "https://github.com/julasweta/fbe",
+    site: "https://fbe.pp.ua",
+    image: "/image3.png",
+  },
+  {
     title: "AI‑Learning & Prompts Guide (MyMarket Lesson)",
     description: "Практичний гайд‑урок, який дає все необхідне, щоб розпочати заробляти з AI: готові промпти, скрипти, інструкції для інтеграції у вебпроєкти. Ідеальний для JS/TS‑розробників, які хочуть швидко підключити AI в свої Flow і підвищити продуктивність.",
     tech: ["AI Prompts", "Automation", "React.js", "Node.js", "Nest.js", "TypeScript"],
@@ -29,14 +37,7 @@ const projects: Project[] = [
     site: "https://julasweta.github.io/julides",
     image: "/image2.png",
   },
-  {
-    title: "FBE Store",
-    description: "FBE is a full-featured e-commerce application for managing products, carts, orders, and users.",
-    tech: ["React.js", "Nest.js", "PostgreSQL"],
-    link: "https://github.com/julasweta/fbe",
-    site: "https://fbe.pp.ua",
-    image: "/image3.png",
-  },
+
 ];
 
 // Дані про досвід
